@@ -1,3 +1,5 @@
+#! /usr/bin/perl
+
 # https://carinelallemand.files.wordpress.com/2014/11/enoobliqstrat1.pdf
 $raw = q|Abandon normal instruments
 Accept advice
@@ -126,3 +128,4 @@ print $msg;
 if ($ARGV[0] ne "-o") {
   print "\n";
 }
+
